@@ -1,19 +1,13 @@
 *{
     margin: 0;
-    padding: 0;
-}
-.header{
-    margin: 20px 40px 128px 132px;
-    padding: 20px 30px;
-    justify-content: space-around;
-    align-items: center;
-    
+    padding: 0; 
 }
 .nav-bar{
     display: flex;
-    padding: 90px 24px;
+    padding: 24px 160px;
+    margin-bottom: 20px;
     background-color: #F5F5F5;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; 
 }
 
@@ -46,8 +40,11 @@
 .banner{
     display: flex;
     width: 1280px;
-    height: 50vh;
+    height: 40vh;
     padding: 80px 100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content:end;
     background-color: rgba(198, 228, 214, 1);
     border-radius: 24px;
     gap: 64px;  
@@ -58,15 +55,18 @@
 }
 
 .sub-title{
+    margin-bottom: 16px;
     font-size: 24px;
     color: #0E0E0E;
     opacity: 50%;
 }
 .title{
+    margin-top: 26px;
     font-size: 60px;
     font-weight: bold;
 }
 .ban-btn{
+    margin-top: 32px;
     font-size: 18px;
     font-weight: 600;
     color: #ffffff;
@@ -82,4 +82,280 @@
 .banner-profile{
     width: 470px;
     height: 400px;
+}
+
+/* main styles */
+main{
+    padding: 160px;
+    margin: 0 auto;
+}
+
+.summary{
+    gap: 32px;
+}
+.info-container{
+    display: flex;
+    width: 1280px;
+    height: 244px;
+    margin-bottom: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+.info{
+    padding: 24px;
+}
+.info h4{
+    gap: 12px;
+}
+.info-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+  
+}
+.info-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.pb-title{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+/* dream styles */
+
+.sec-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px;
+}
+.sec-description{
+    font-size: 30px;
+    margin: 20px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.modern-container{
+    display: flex;
+    gap: 32px;
+}
+.box{
+    text-align: justify;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 16px;
+    
+}
+.modern1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.modern2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.modern3{
+    background-color: rgba(247, 235, 207, 1);
+}
+.modern-title1, .modern-title2, .modern-title3 {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.modern-description1, .modern-description2, .modern-description3{
+    font-size: 16px;
+    margin: 10px;
+    padding-bottom: 25px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.modern-btn1, .modern-btn2, .modern-btn3{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius: 8px;
+}
+.modern-btn1{
+    background-color: rgba(84, 144, 245, 1);
+}
+.modern-btn2{
+    background-color: rgba(9, 161, 92, 1);
+}
+.modern-btn3{
+    background-color:rgba(255, 194, 57, 1);
+}
+.modern-btn1:hover{
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+}
+.modern-btn2:hover{
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+}
+.modern-btn3:hover{
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+}
+
+/* report styles */
+.report h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 20px;
+    gap: 24px;
+}
+.report p{
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.report-box{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+    border: 1px solid whitesmoke;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    padding: 48px;
+    border-radius: 24px;
+    gap: 32px;
+}
+.report-box1 h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.report-box1 img{
+    width: 134px;
+    height: 40px;
+    padding-bottom: 5px;
+}
+.report-box1 p{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    line-height: 24px;
+}
+.report-box1 button{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#FFFFFF;
+    padding: 13px 26px;
+    background-color: #006A50;
+}
+.report-box1 button:hover{
+    background-color: chocolate;
+    color: #0E0E0E;
+}
+.report-box{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    border: 1px solid whitesmoke;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    padding: 48px;
+    border-radius: 24px;
+    gap: 32px;
+}
+.report-boxs{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: flex-end;
+    border: 1px solid whitesmoke;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    padding: 48px;
+    border-radius: 24px;
+    gap: 32px;
+}
+/* donate styles */
+.donate-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    color: #0E0E0E;
+}
+.donate-description{
+    font-size: 16px;
+   color: #0E0E0E;
+   opacity: 70%;
+   line-height: 24px;
+   margin: 0 auto;
+   padding-bottom: 10px;
+}
+.donate-container{
+    display: flex;
+    gap: 24px;
+}
+.rang1, .rang2, .rang3, .rang4{
+    text-align: justify;
+    width: 120px;
+    height: 20px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.rang1{
+    background-color: rgba(255, 255, 255, 1);
+}
+.rang2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.rang3{
+    background-color:rgba(255, 255, 255, 1) ;
+}
+.rang4{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.donate-box input{
+    display: block;
+    width: 1032px;
+    height: 50px;
+    margin-top: 24px;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    opacity: 30%;
+}
+.done-btn{
+    width: 70px;
+    height: 20px;
+    margin: 10px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.rang1:hover{
+    background-color:tomato ;
+    color: white;
+}
+.rang2:hover{
+    background-color:tomato ;
+    color: white;
+}
+.rang3:hover{
+    background-color:tomato ;
+    color: white;
+}
+.rang4:hover{
+    background-color:tomato ;
+    color: white;
 }
